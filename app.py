@@ -13,10 +13,13 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route("/dashboard")
+def dashboard():
+    return render_template('dashboard.html')
 
-@app.route("/portfolio")
-def portolio():
-    return render_template('portfolio.html')
+@app.route("/prediction")
+def prediction():
+    return render_template('prediction.html')
 
 @app.route("/contact")
 def contact():
