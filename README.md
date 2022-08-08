@@ -1,5 +1,7 @@
 # Predicting NLF games
 
+This Python app was developed as a Capstone Project for EPICODE GLOBAL
+
 ## Packages inside environment:
 | Packages            | Version  |
 |:-------------------:|:--------:|
